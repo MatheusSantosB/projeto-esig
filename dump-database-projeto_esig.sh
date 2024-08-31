@@ -16,8 +16,8 @@ BACKUP_FILE="${BACKUP_DIR}/${DB_NAME}_backup_${TIMESTAMP}.SQL"
 mkdir -p "${BACKUP_DIR}"
 
 # Cria o dump do DB
-#pg_dump -h "${DB_HOST}" -p "${DB_PORT}" -u "${DB_USER}" "${DB_NAME}" > "${BACKUP_FILE}"
-"C:\Program Files\PostgreSQL\14\bin\pg_dump.exe" -h "${DB_HOST}" -p "${DB_PORT}" -U "${DB_USER}" -F c -b -v -f "${BACKUP_FILE}" "${DB_NAME}"
+pg_dump -h "${DB_HOST}" -p "${DB_PORT}" -U "${DB_USER}" "${DB_NAME}" > "${BACKUP_FILE}"
+#"C:\Program Files\PostgreSQL\14\bin\pg_dump.exe" -h "${DB_HOST}" -p "${DB_PORT}" -U "${DB_USER}" -F c -b -v -f "${BACKUP_FILE}" "${DB_NAME}"
 
 
 # Verifica se o dump foi criado com sucesso
