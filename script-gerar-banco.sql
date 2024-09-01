@@ -14,7 +14,8 @@ CREATE TABLE cadastro (
 
 --Popular a tabela
 INSERT INTO cadastro (nome, sobrenome, email) VALUES
-('Matheus', 'dos Santos Bezerra da Silva', 'matheus123@gmail.com'),
+('Emanuel', 'dos Santos Bezerra da Silva', 'emanuel123@gmail.com'),
 ('Carlos', 'Paulino', 'carlos321@outlook.com'),
 ('Augusto', 'Santana', 'augusto3331@yahoo.com'),
+('Antonio', 'Valle', 'valle.an123@ig.com'),
 ('Vitor', 'Pereira', 'pereiravitor123@hotmail.com.br');
