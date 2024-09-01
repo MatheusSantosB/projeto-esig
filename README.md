@@ -23,7 +23,7 @@ Este projeto contém scripts para realização de DUMP e RESTORE, tarefas relaci
   ```
    psql -U seu_usuario -d postgres -f script-gerar-banco.sql
   ```
-4. **Para entrar no banco e conferir se funcionou(opcional):**
+4. **Para entrar no banco e conferir se funcionou (opcional):**
   ```
   psql -U postgres -h localhost
   ```
@@ -60,7 +60,7 @@ https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804-pt
   ```
 ## Verificação de servidores Jboss (Wildfly)
 
-- **Siga esse tutorial para instalar o servidor do Jboss(wildfly) caso não tenha:**
+- **Siga esse tutorial para instalar o servidor do Jboss(Wildfly) caso não tenha:**
 ``` 
 https://www.letscloud.io/community/como-instalar-o-wildfly-no-ubuntu-1804  
 ```
