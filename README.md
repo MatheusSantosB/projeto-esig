@@ -17,7 +17,7 @@ Este projeto contém scripts para realização de DUMP e RESTORE, tarefas relaci
   ```
 2. **Acesse o diretorio do projeto:**
   ```   
-  cd projetoesig/
+  cd wslprojeto/projeto-esig/
   ```
 3. **Para gerar e popular o banco:**
   ```
